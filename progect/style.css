@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&family=Montserrat:wght@200;400;600&family=The+Nautigal:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&family=Montserrat:wght@200;400;600&family=The+Nautigal:wght@700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@200&family=Montserrat:wght@200;400;600&family=The+Nautigal:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap');
+
+*,
+* ::after,
+* ::before {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --Cream: hsl(30, 38%, 92%);
+    --Dark_cyan: hsl(158, 36%, 37%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Cream);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.dashboard {
+    display: flex;
+    width: 640px;
+    height: 450px;
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+.img_left {
+    width: 320px;
+    height: 450px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.dashboard_right {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+}
+
+.name1 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: var(--Dark_grayish_blue);
+}
+
+.name2 {
+    font-size: 40px;
+    font-family: 'Fraunces', serif;   
+}
+
+.opis {
+    font-size: 14px;
+    color: var(--Dark_grayish_blue);
+}
+
+.price_now {
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    color: var(--Dark_cyan);
+}
+
+.price_old {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;   
+    text-decoration: line-through; 
+    color: var(--Dark_grayish_blue);
+}
+
+.add {
+    all: unset;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--Dark_cyan);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none; /* Убрать подчеркивание текста */
+    color: var(--White);
+    
+  }
